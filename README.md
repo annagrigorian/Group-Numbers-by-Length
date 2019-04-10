@@ -1,4 +1,4 @@
-# Group-Numbers-by-Length
+# Group Numbers by Length
 
 Simple program that allows to group numbers by the count of digits 
 
