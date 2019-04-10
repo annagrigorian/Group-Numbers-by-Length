@@ -2,17 +2,17 @@
 
 Simple program that allows to group numbers by the count of digits 
 
->First we generate a sequence of integral numbers within a specified range as follows
+First we generate a sequence of integral numbers within a specified range as follows
 ~~~csharp
 var numbers = Enumerable.Range(0, 1000);
 ~~~
 
->Grouping the elements of a sequence according to a specified key selector by using GroupBy method
+Grouping the elements of a sequence according to a specified key selector by using GroupBy method
 ~~~csharp
 var groups = numbers.GroupBy(i => i.ToString().Length);
 ~~~
 
->The output is as follows
+The output is as follows
 ~~~csharp
 Number of digits : 1
 Group numbers :
